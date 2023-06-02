@@ -1,17 +1,13 @@
-import { BrowserRouter, Routes, Route }
-from 'react-router-dom';
-import Contato from '../Paginas/contato';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-
-function RouterApp() {
-    return (
-        <BrowserRouter>
-            <Routes>
-<Route path="/c" element={<Contato/>} />
-
-
-</Routes>
-        </BrowserRouter>
-    )
+function rota() {
+  return (
+    <Router>
+      <Switch>
+        {'/contato'}
+      </Switch>
+    </Router>
+  );
 }
-export default RouterApp;
+
+export default rota;
