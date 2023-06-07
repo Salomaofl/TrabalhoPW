@@ -8,24 +8,32 @@ function Formulario() {
       <div style={{ display: 'block',
           width: 700,
           padding: 30 }}>
-          <h4>React-Bootstrap Form Component</h4>
+          <h4>FORMULARIO</h4>
           <Form>
               <Form.Group>
-                  <Form.Label>Enter your full name:</Form.Label>
+                  <Form.Label>Digite o seu nome:</Form.Label>
                   <Form.Control type="text"
-                                placeholder="Enter your full name" />
+                                placeholder="Nome completo" />
               </Form.Group>
               <Form.Group>
-                  <Form.Label>Enter your email address:</Form.Label>
+                  <Form.Label>Digite seu E-mail:</Form.Label>
                   <Form.Control type="email"
-                                placeholder="Enter your your email address" />
+                                placeholder="E-mail" />
               </Form.Group>
+               
+               <Form.Group>
+                  <Form.Label>Digite seu CPF:</Form.Label>
+                  <Form.Control type="text"
+                                placeholder="Digite o seu CPF" />
+              </Form.Group>
+
               <Form.Group>
-                  <Form.Label>Enter your age:</Form.Label>
-                  <Form.Control type="number" placeholder="Enter your age" />
+                  <Form.Label>Descreva sua solicitação:</Form.Label>
+                  <Form.Control type="text" placeholder="Diga a sua solicitação" />
               </Form.Group>
+              
               <Button variant="primary" type="submit">
-                  Click here to submit form
+                  Enviar
               </Button>
           </Form>
       </div>

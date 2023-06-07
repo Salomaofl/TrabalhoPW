@@ -19,17 +19,17 @@ return(
                     <Navbar.Brand  href="#home"> H.OLHOS</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#contato">Sobre Nós</Nav.Link>
-                        <Nav.Link href="#pricing">Contato</Nav.Link>
+                        <Nav.Link href="/s">Sobre Nós</Nav.Link>
+                        <Nav.Link href="/c">Contato</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
 
             <Container>
                 <Row>
-                    <Col><Card title={"Exemplo 1"} text={"<p>Aqui é um paragrafo</p>>"} link={'/f'}/></Col>
-                    <Col><Card title={"Exemplo 1"} text={"<p>Aqui é um paragrafo</p>>"}/></Col>
-                    <Col><Card title={"Exemplo 1"} text={"<p>Aqui é um paragrafo</p>>"}/></Col>
+                    <Col><Card title={"DOCUMENTOS"} text={"Area reservada para solicitar segunda via de qualque documento."} link={'/f'}/></Col>
+                    <Col><Card title={"FINANCEIRO"} text={"Se precisa de Nota Fiscal, Nota Detalhada ou Reembolso."} link={'/f'}/></Col>
+                    <Col><Card title={"EXAMES"} text={"Para laudos,imagens, segunda via de exames e laudos"} link={'/f'}/></Col>
                 </Row>
             </Container>
 
