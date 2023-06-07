@@ -11,9 +11,9 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Header />}>
+            <Route>
+                <Route index element={<Header />} />
                 <Route path="/c" element={<Contato/>}/>
-                <Route path="/f" element={<sobreNos/>}/>
                 <Route path="/f" element={<Formulario/>}/>
             </Route>
         </Routes>
