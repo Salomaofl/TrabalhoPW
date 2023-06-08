@@ -7,12 +7,15 @@ import SobreNos from "./Paginas/sobreNos";
 
 
 
+
 function App() {
+  
   return (
     <BrowserRouter>
         <Routes>
             <Route>
                 <Route index element={<Header />} />
+                <Route path="/h" element={<Header/>}/>
                 <Route path="/c" element={<Contato/>}/>
                 <Route path="/f" element={<Formulario/>}/>
                 <Route path="/S" element={<SobreNos/>}/>

@@ -16,10 +16,10 @@ return(
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand  href="#home"> H.OLHOS</Navbar.Brand>
+                    <Navbar.Brand  href="/h"> H.OLHOS</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="/s">Sobre Nós</Nav.Link>
+                        <Nav.Link href="/h">Home</Nav.Link>
+                        <Nav.Link href="/s">Sobre nós</Nav.Link>
                         <Nav.Link href="/c">Contato</Nav.Link>
                     </Nav>
                 </Container>
@@ -32,13 +32,9 @@ return(
                     <Col><Card title={"EXAMES"} text={"Para laudos,imagens, segunda via de exames e laudos"} link={'/f'}/></Col>
                 </Row>
             </Container>
-
-
         </div>
         <Outlet/>
     </>
-
-
     )
 }
 

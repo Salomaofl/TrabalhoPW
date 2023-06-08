@@ -1,12 +1,17 @@
-import Col from 'react-bootstrap/Col';
+
 import Form from 'react-bootstrap/Form';
 import Button from "react-bootstrap/Button";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
 
 
 function Formulario() {
   return (
-      <div style={{ display: 'block',
-          width: 700,
+    <Container>
+        <Row className="justify-content-md-center">
+      <div style={{ display: 'block'
+          ,width: 700,
           padding: 30 }}>
           <h4>FORMULARIO</h4>
           <Form>
@@ -37,6 +42,8 @@ function Formulario() {
               </Button>
           </Form>
       </div>
+      </Row>
+      </Container>
   );
 }
 
