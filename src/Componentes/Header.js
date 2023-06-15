@@ -27,9 +27,9 @@ return(
 
             <Container>
                 <Row>
-                    <Col><Card title={"DOCUMENTOS"} text={"Area reservada para solicitar segunda via de qualque documento."} link={'/f'}/></Col>
+                    <Col><Card title={"DOCUMENTOS"} text={"Área reservada para solicitar segunda via de qualque documento."} link={'/f'}/></Col>
                     <Col><Card title={"FINANCEIRO"} text={"Se precisa de Nota Fiscal, Nota Detalhada ou Reembolso."} link={'/f'}/></Col>
-                    <Col><Card title={"EXAMES"} text={"Para laudos,imagens, segunda via de exames e laudos"} link={'/f'}/></Col>
+                    <Col><Card title={"EXAMES"} text={"Área reservada para a solicitação de laudos e imagens. "} link={'/f'}/></Col>
                 </Row>
             </Container>
         </div>
