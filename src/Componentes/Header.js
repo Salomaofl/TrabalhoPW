@@ -19,7 +19,7 @@ return(
                     <Navbar.Brand  href="/h"> H.OLHOS</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/h">Home</Nav.Link>
-                        <Nav.Link href="/s">Sobre nós</Nav.Link>
+                        <Nav.Link href="/s">Sobre nós Teteste </Nav.Link>
                         <Nav.Link href="/c">Contato</Nav.Link>
                     </Nav>
                 </Container>
